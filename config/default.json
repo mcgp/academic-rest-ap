@@ -1,0 +1,27 @@
+{
+
+    "db-connections":{
+        "mongodb":{
+            "host":"cluster0.ajlxn.mongodb.net",
+            "user":"acad_rest_api_user",
+            "password":"ANEDSHuHc85x0VMY",
+            "dbname":"AcademicDB"
+        }
+    },
+    "secretkeys":{
+        "cryptojs":"Rp0NoFxOvkMm",
+        "jwt": "MahIALil2020"
+    },
+    "roles":{
+        "student": 1,
+        "teacher": 2
+    },
+    "idFaculty":{
+        "F. Ingenierias": 1,
+        "F. CienciasExactas": 2,
+        "F. Salud":3,
+        "F. Artes":4
+    },
+    "server-port":3000
+
+}
